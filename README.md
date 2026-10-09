@@ -7,6 +7,9 @@ Site de recrutamento de motoristas XIMOVISSA. Contacto oficial: **+258 85 396 50
 - `index.html`: site completo, com estilos, formulário e carros em 3D incorporados.
 - `vercel.json`: configuração para servir o site estático sem instalação nem compilação.
 - `README.md`: este guia de publicação.
+- `motorista-junto-ao-carro.webp`, `motorista-ao-volante.webp` e `motorista-com-chaves.webp`: imagens da campanha de recrutamento, servidas pelo próprio site e carregadas apenas quando necessárias.
+
+As três imagens publicitárias foram geradas com a ferramenta de imagem incorporada. Direção da campanha: motorista africano com camisa e chapéu azuis, marca XIMOVISSA bordada em branco e carro branco; cenas junto ao carro, ao volante com cinto de segurança e com as chaves na mão. Foram convertidas para WebP para reduzir o tamanho sem alterar a composição.
 
 Não é necessário instalar Node.js, executar npm ou configurar variáveis de ambiente. As fontes são carregadas pelo Google Fonts; existem fontes de sistema como alternativa se a ligação falhar. A animação não depende de ficheiros ou bibliotecas externas.
 
@@ -15,7 +18,7 @@ Não é necessário instalar Node.js, executar npm ou configurar variáveis de a
 1. Abra https://github.com/new?name=ximovissa e crie o repositório `ximovissa` na conta pretendida. Pode manter o repositório privado e publicar o site pela Vercel.
 2. Descompacte `ximovissa.zip` e abra a pasta `ximovissa`.
 3. No GitHub, escolha **Add file → Upload files**. Num repositório vazio, use **uploading an existing file**.
-4. Carregue os três ficheiros diretamente na raiz do repositório. Não carregue apenas o ZIP nem coloque os ficheiros dentro de outra pasta `ximovissa`.
+4. Carregue os seis ficheiros diretamente na raiz do repositório, incluindo as três imagens WebP. Não carregue apenas o ZIP nem coloque os ficheiros dentro de outra pasta `ximovissa`.
 5. Confirme o envio com **Commit changes**.
 
 ## Publicar na Vercel

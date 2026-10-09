@@ -162,6 +162,20 @@ footer .official-contact{display:inline-block;font-size:18px;font-weight:700;mar
 .category-status{color:var(--mute);font-size:14px;line-height:1.5;margin:14px 0 0;min-height:21px;overflow-wrap:anywhere}
 .sum dd{overflow-wrap:anywhere;min-width:0}
 .btn-wa{white-space:normal;font-size:clamp(14px,4vw,19px);padding:14px 16px}
+/* Recruitment campaign photos, optimised and served with the site. */
+.campaign{background:var(--bg)}
+.campaign-intro{max-width:720px;margin-bottom:28px}
+.campaign-kicker{display:block;color:var(--blue);font-size:13px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px}
+.campaign-intro .lead{margin-bottom:0}
+.campaign-grid{display:grid;gap:20px}
+.campaign-card{margin:0;overflow:hidden;border-radius:22px;border:1px solid var(--line);background:var(--card)}
+.campaign-card img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.campaign-card figcaption{padding:22px}
+.campaign-card h3{font-size:20px;line-height:1.25;margin-bottom:8px}
+.campaign-card p{font-size:15px;color:var(--mute);margin:0}
+.campaign-action{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:26px}
+.campaign-action p{margin:0;font-size:15px;color:var(--mute)}
+@media(min-width:760px){.campaign-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.campaign-card figcaption{padding:20px}}
 </style>
 </head>
 <body>
@@ -209,6 +223,34 @@ footer .official-contact{display:inline-block;font-size:18px;font-weight:700;mar
     </div>
   </div>
   <div class="slogan" id="sloganBar"></div>
+</section>
+
+<section class="campaign" id="campanha" aria-labelledby="campaign-title">
+  <div class="wrap">
+    <div class="campaign-intro">
+      <span class="campaign-kicker">Ao volante de uma nova oportunidade</span>
+      <h2 id="campaign-title">O próximo passo começa consigo.</h2>
+      <p class="lead">Vista a responsabilidade. Traga a sua experiência. Faça parte da XIMOVISSA.</p>
+    </div>
+    <div class="campaign-grid">
+      <figure class="campaign-card">
+        <img src="motorista-junto-ao-carro.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="Motorista africano com camisa e chapéu azuis XIMOVISSA junto a um carro branco.">
+        <figcaption><h3>A sua experiência tem lugar aqui.</h3><p>Uma nova oportunidade para quem conduz com responsabilidade.</p></figcaption>
+      </figure>
+      <figure class="campaign-card">
+        <img src="motorista-ao-volante.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="Motorista africano com uniforme XIMOVISSA, cinto de segurança e mãos no volante de um carro estacionado.">
+        <figcaption><h3>Segurança em cada percurso.</h3><p>Atenção, respeito e cuidado em cada viagem.</p></figcaption>
+      </figure>
+      <figure class="campaign-card">
+        <img src="motorista-com-chaves.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="Motorista africano com camisa e chapéu XIMOVISSA a segurar as chaves junto a um carro branco.">
+        <figcaption><h3>O próximo passo é seu.</h3><p>Candidate-se e continue a conversa com a nossa equipa.</p></figcaption>
+      </figure>
+    </div>
+    <div class="campaign-action">
+      <a class="btn btn-p" href="#candidatura">QUERO FAZER PARTE</a>
+      <p>Preencha o cadastro e continue pelo WhatsApp.</p>
+    </div>
+  </div>
 </section>
 
 <section id="oportunidade"><div class="wrap">
